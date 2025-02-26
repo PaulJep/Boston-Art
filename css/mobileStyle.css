@@ -1,0 +1,76 @@
+@media screen and (min-width:412px) and (max-width:1024px){
+    
+
+.emptybox {
+    display: none;
+}
+
+.hamburgerMenu{
+    display: inline;
+    font-size: x-large;
+}
+
+header {
+    width: 100%;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.box00{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+    
+}
+.heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 200px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+main{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/DSC_6445_3\ \(1\).png);
+    background-size: cover;
+    height:500px;
+    width:410px;
+    padding: 0px;
+    margin-left: 1px;
+}
+
+main::after{
+    display: none;
+}
+
+h2{
+    font-size: 30px;
+}
+
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+}
+.elevate{
+    margin-top: -80px;
+}
+p{
+    font-size: 20px;
+}
+}

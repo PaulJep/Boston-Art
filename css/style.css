@@ -1,0 +1,142 @@
+body {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburgerMenu {
+    display: none;
+}
+
+header {
+    display: flex;
+    padding-left: 61.5px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+
+}
+
+.logo {
+    flex-basis: 40%;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.emptybox {
+    flex-basis: 60%;
+}
+
+.emptybox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 34px;
+}
+
+ul {
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #544F4C;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: black;
+}
+
+li {
+    text-align: center;
+    margin-left: 20px;
+    color: #544F4C;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/DSC_6445_3\ \(1\).png);
+    background-size: cover;
+    height: 700px;
+    clip-path: ellipse(99% 99% at 50% 0%);
+}
+
+
+button {
+    background-color: #544F4C;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120px;
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+
+.image {
+
+    margin-right: 10px;
+
+}
+.elevate{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #544F4C;
+    margin-top: 300px;
+    font-size: 60px;
+    font-family: Quicksand,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+    color: #544F4C;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box00 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 600px;
+    padding: 20px;
+}
+
+div {
+    flex-basis: 24%;
+    height: 600px;
+    background-color: rgb(244, 244, 235);
+    text-align: center;
+}
+
+div img {
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+h4 {
+    color: #544F4C;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+div p {
+    font-size: 20px;
+    padding: 2px;
+}
